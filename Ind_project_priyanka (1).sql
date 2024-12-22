@@ -150,7 +150,7 @@ SELECT * FROM view_project_titles
 WHERE Lead_Institution = 'University of Toronto';
 
 
--- query 10  Using view_institution_projects
+-- Query 10  Using view_institution_projects
 -- All Institutions with Projects more than 5
 SELECT Institution, Number_of_Projects
 FROM view_institution_projects
